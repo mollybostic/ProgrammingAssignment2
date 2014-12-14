@@ -26,7 +26,7 @@ makeCacheMatrix <- function(x = matrix()) {
         cachedinverse
     }
     
-    # adds the get and set operations to the returned list
+    # defines the list of operations
     list(set=set, get=get,
          setinverse=setinverse,
          getinverse=getinverse)
